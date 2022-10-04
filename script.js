@@ -1,15 +1,17 @@
-<!DOCTYPE html>
-<html lang="en">
+// declaracion de variables 
+let mult3 = "Fizz";
+let mult5 = "Buzz";
+let mult35 = "FizzBuzz";
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>FIZZ BUZZ</title>
-</head>
-
-<body>
-    <script src="script.js"></script>
-</body>
-
-</html>
+// funciones
+for (i = 1; i < 1001; i++) {
+    if ((i % 3 == 0) && (i % 5 == 0)) {
+        console.log(mult35);
+    } else if (i % 3 == 0) {
+        console.log(mult3);
+    } else if (i % 5 == 0) {
+        console.log(mult5);
+    } else {
+        console.log(i);
+    }
+}
